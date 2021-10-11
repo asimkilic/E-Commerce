@@ -9,7 +9,7 @@ namespace ApplicationLayer.Entities.Concrete
 {
     public class InventoryItem : IEntity
     {
-
+     
         public int Id { get; set; }
         public int Quantity { get; set; }
 

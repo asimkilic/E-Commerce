@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 namespace ApplicationLayer.Entities.Concrete
 {
     public class Address : IEntity
-    {
+      
+    { 
         public int Id { get; set; }
         public string AddressName { get; set; } // Work, Home etc.
         public string FullAddress { get; set; }
