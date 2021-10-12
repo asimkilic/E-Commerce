@@ -13,8 +13,6 @@ namespace DataLayer.Abstract
     public interface IEntityRepository<T>
         where T : class, IEntity, new()
     {
-        // interface'ler metodların imzalarının yazıldığı yer
-      
         T Get(Expression<Func<T, bool>> filter);
         List<T> GetAll(Expression<Func<T, bool>> filter=null);
         void Create(T entity);

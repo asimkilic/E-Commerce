@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ApplicationLayer.Entities.Abstract
 {
-    
     public interface IEntity
     {
+
     }
 }
